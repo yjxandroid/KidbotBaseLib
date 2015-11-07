@@ -5,5 +5,5 @@ package com.kidbot.library.cache;
  * Created by yjx on 15/11/7.
  */
 public interface Cache {
-
+     void add(Object item);
 }
