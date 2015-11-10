@@ -17,7 +17,7 @@ public class AsynClient {
     private static AsynClient instance;
     private RequestQueue requestQueue;
     private AsynClient(Context context){
-        requestQueue= Volley.newRequestQueue(context);
+        requestQueue= Volley.newRequestQueue(context,new OkHttpStack());
     }
 
     public static AsynClient getInstance(Context context){
