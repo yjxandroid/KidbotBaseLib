@@ -16,7 +16,7 @@ public final class StringUtils {
 
     /**
      * 得到32位的 md5加密
-     * @param content 字符串
+     * @param content 字符串 明文
      * @return 返回 加密后的内容
      */
     @CheckResult
@@ -43,4 +43,9 @@ public final class StringUtils {
         }
         return sb.toString();
     }
+
+
+
+
+
 }

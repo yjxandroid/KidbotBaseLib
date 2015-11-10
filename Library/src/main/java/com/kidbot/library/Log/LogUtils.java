@@ -11,7 +11,7 @@ import org.json.JSONObject;
 import java.lang.reflect.Field;
 
 
-public class LogUtils {
+ class LogUtils {
     /**
      * @return StackTraceElement对象
      */

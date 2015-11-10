@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 /**
- * 系统相关的 api
+ * 系统相关的工具类
  * User: YJX
  * Date: 2015-11-06
  * Time: 16:43
